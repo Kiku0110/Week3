@@ -1,0 +1,301 @@
+/* 字體 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*:root根目錄選取器 顏色*/
+:root{
+	--neutral-white:#FFFF;
+	--neutral-900:#212529;
+	--primary-100:#F5FEE7;
+	--primary-400:#57A203;
+	--primary-300:#C0FA73;
+	--primary-200:#E8FEC5;
+	--neutral-100:#F8F9FA;
+	--neutral-300:#DEE2E6;
+	--neutral-400:#CED4DA;
+	--neutral-600:#6C757D;
+	--neutral-500:#ADB5BD;
+	--functional-danger-300:#D74F4F;
+}
+/* box-sizing、文字樣式*/
+*,*::before,*::after{
+	box-sizing: border-box;
+}
+body{
+    font-family: "Noto Sans TC", sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.05em;
+	color:var(--neutral-900);
+}
+/*字重*/
+.fw-400{
+	font-weight: 400;
+}
+.fw-500{
+	font-weight: 500;
+}
+.fw-700{
+	font-weight: 700;
+}
+/*H1 ~ H6*/
+.h1{
+	font-size: 48px;
+	line-height: 1.2;
+	font-weight: 700;
+}
+.h2{
+	font-size: 32px;
+	line-height: 1.2;
+	font-weight: 700;
+}
+.h3{
+	font-size: 28px;
+	line-height: 1.2;
+	font-weight: 700;
+}
+.h4{
+	font-size: 24px;
+	line-height: 1.2;
+	font-weight: 700;
+}
+.h5{
+	font-size: 20px;
+	line-height: 1.2;
+	font-weight: 700;
+}
+.h6{
+	font-size: 16px;
+	line-height: 1.2;
+	font-weight: 700;
+}
+/*img & a 設定*/
+img{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+a{
+	display: block;
+	text-decoration-line: none;
+	color: var(--neutral-900);
+}
+/*容器*/
+.container{
+	max-width: 1296px;
+	margin: 0 auto;
+	padding: 0px 12px;
+}
+/*格線系統*/
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0px -12px;
+}
+.col-1{
+	width: calc(100%/12*1);
+	padding: 0px 12px;
+}
+.col-2{
+	width: calc(100%/12*2);
+	padding: 0px 12px;
+}
+.col-3{
+	width: calc(100%/12*3);
+	padding: 0px 12px;
+}
+.col-4{
+	width: calc(100%/12*4);
+	padding: 0px 12px;
+}
+.col-5{
+	width: calc(100%/12*5);
+	padding: 0px 12px;
+}
+.col-6{
+	width: calc(100%/12*6);
+	padding: 0px 12px;
+}
+.col-7{
+	width: calc(100%/12*7);
+	padding: 0px 12px;
+}
+.col-8{
+	width: calc(100%/12*8);
+	padding: 0px 12px;
+}
+.col-9{
+	width: calc(100%/12*9);
+	padding: 0px 12px;
+}
+.col-10{
+	width: calc(100%/12*10);
+	padding: 0px 12px;
+}
+.col-11{
+	width: calc(100%/12*11);
+	padding: 0px 12px;
+}
+.col-12{
+	width: 100%;
+}
+/*margin 間距*/
+/*上*/
+.mt-64{
+	margin-top: 64px;
+}
+/*下*/
+.mb-4{
+	margin-bottom: 4px;
+}
+.mb-8{
+	margin-bottom: 8px;
+}
+.mb-12{
+	margin-bottom: 12px;
+}
+.mb-16{
+	margin-bottom: 16px;
+}
+.mb-24{
+	margin-bottom: 24px;
+}
+.mb-32{
+	margin-bottom: 32px;
+}
+.mb-40{
+	margin-bottom: 40px;
+}
+.mb-48{
+	margin-bottom: 48px;
+}
+.mb-64{
+	margin-bottom: 64px;
+}
+/*右*/
+.mr-8{
+	margin-right: 8px;
+}
+.mr-12{
+	margin-right: 12px;
+}
+.mr-24{
+	margin-right: 24px;
+}
+.mr-40{
+	margin-right: 40px;
+}
+.mr-48{
+	margin-right: 48px;
+}
+/*padding 縮排*/
+/*上下左右*/
+.p-12{
+	padding: 12px;
+}
+/*上下*/
+.p-tb-8{
+	padding: 8px 0;
+}
+.p-tb-12{
+	padding: 12px 0;
+}
+.p-tb-64{
+	padding: 64px 0;
+}
+.pr-24{
+	padding-right: 24px;
+}
+/*排列方式*/
+.d-flex{
+	display: flex;
+}
+.jc-sb{
+	justify-content: space-between;
+}
+.jc-center{
+	justify-content: center;
+}
+.ai-center{
+	align-items: center;
+}
+.fw-wrap{
+	flex-wrap: wrap;
+}
+/*子元素之間間距*/
+.gap-8{
+	gap: 8px;
+}
+/*元件*/
+.breadcrumb-item +.breadcrumb-item::before{
+	content: "/";
+	padding: 0px 12px;
+	color: var(--neutral-300);
+	font-weight: 700;
+}
+.breadcrumb-item{
+	display: flex;
+	font-weight: 500;
+}
+.item-color{
+	color: var(--neutral-600);
+}
+.btn{
+	border-radius: 4px; /*圓角*/
+	padding: 12px 24px;
+	font-family: "Noto Sans TC",serif;
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 500;
+	border: none;
+	cursor: pointer;
+	background-color: transparent;
+}

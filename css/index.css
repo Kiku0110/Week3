@@ -1,0 +1,147 @@
+.narvbar{
+    padding: 16px 0px;
+}
+/* a 連結 hover*/
+.narvbar a:hover{
+	border-bottom:1px solid var(--neutral-900);
+	padding-bottom: 4px;
+}
+
+.hero{
+    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner.png?raw=true");
+    max-width: 100%;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.hero-content{
+    width: 586px;
+    padding-top: 289px;
+    padding-bottom: 288px;
+    margin-left: 200px;
+    color:var(--neutral-white);
+}
+.hero-content .h1{
+    font-size: 64px;
+}
+.hero-content .btn{
+    background-color: var(--primary-300);
+}
+/* button hover*/
+.hero-content .btn:hover{
+    background-color: var(--neutral-white);
+}
+
+main{
+    padding: 64px 0;
+}
+.new-arrival .title{
+    text-align: center;
+}
+
+/*卡片 a 連結 hover 效果*/
+.product .list-card a:hover{
+    box-shadow: 10px 10px 10px -6px;
+}
+
+.best-seller{
+    padding: 64px 0;
+}
+.best-seller .h2{
+    padding: 5px 0px;
+}
+/* a 連結 hover */
+.best-seller a:hover{
+    box-shadow: 10px 10px 10px -6px;
+}
+.best-seller .list .sell-well{
+    width: 91px;
+    padding: 8px 12px;
+    position:absolute;
+    top: 0;
+    left: 12px;
+    background-color: var(--primary-100);
+}
+.sell-well p{
+    font-size: 14px;
+    text-align: center;
+    white-space: pre; /*保留原始空白與換行*/
+    color: var(--primary-400);
+}
+.best-seller .col-3{
+    position: relative;
+}
+
+.sale{
+    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-co-branded.png?raw=true");
+    max-width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+    margin: 48px 0;
+}
+.sale-content{
+    max-width: 634px;
+    margin: 0 auto;
+    padding: 100px 0;
+    text-align: center;
+    margin-bottom: 84px;
+}
+.sale-content .title .h1{
+    color: var(--neutral-white);
+}
+.sale-content .title .x-color{
+    font-size: 40px;
+    color: var(--primary-300);
+}
+.sale-content .h2{
+    color: var(--neutral-white);
+}
+.sale-content p{
+    font-size: 20px;
+    color: var(--neutral-500);
+}
+.sale-content .btn{
+    margin: 0px 259.5px;
+    background-color: var(--primary-300);
+}
+/* button hover*/
+.sale-content .btn:hover{
+    background-color: var(--neutral-white);
+}
+
+/*未完成*/
+.indicators{
+    width: 88px;
+    margin: 0 auto;
+}
+.bi-circle-fill{
+    color: var(--neutral-400);
+    margin-right: 8px;
+}
+
+.series{
+    padding: 64px 0;
+}
+.series .h2{
+    padding: 5px 0px;
+}
+/* a 連結 hover */
+/* .Series a:hover{
+    box-shadow: 10px 10px 10px -6px;
+} */
+ .series .series-img1{
+    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-6.png?raw=true");
+ }
+.series .list .series-name{
+    width: 219px;
+    position: absolute;
+    
+    text-align: center;
+    color: var(--neutral-900);
+}
+.series .col-3{
+    position: relative;
+}
+
