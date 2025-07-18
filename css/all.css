@@ -115,7 +115,7 @@ body{
 .h6{
 	font-size: 16px;
 	line-height: 1.2;
-	font-weight: 400;
+	font-weight: 700;
 }
 /*img & a 設定*/
 img{
@@ -141,51 +141,51 @@ a{
 	margin: 0px -12px;
 }
 .col-1{
-	width: calc(100%/12*1);
+	max-width: calc(100%/12*1);
 	padding: 0px 12px;
 }
 .col-2{
-	width: calc(100%/12*2);
+	max-width: calc(100%/12*2);
 	padding: 0px 12px;
 }
 .col-3{
-	width: calc(100%/12*3);
+	max-width: calc(100%/12*3);
 	padding: 0px 12px;
 }
 .col-4{
-	width: calc(100%/12*4);
+	max-width: calc(100%/12*4);
 	padding: 0px 12px;
 }
 .col-5{
-	width: calc(100%/12*5);
+	max-width: calc(100%/12*5);
 	padding: 0px 12px;
 }
 .col-6{
-	width: calc(100%/12*6);
+	max-width: calc(100%/12*6);
 	padding: 0px 12px;
 }
 .col-7{
-	width: calc(100%/12*7);
+	max-width: calc(100%/12*7);
 	padding: 0px 12px;
 }
 .col-8{
-	width: calc(100%/12*8);
+	max-width: calc(100%/12*8);
 	padding: 0px 12px;
 }
 .col-9{
-	width: calc(100%/12*9);
+	max-width: calc(100%/12*9);
 	padding: 0px 12px;
 }
 .col-10{
-	width: calc(100%/12*10);
+	max-width: calc(100%/12*10);
 	padding: 0px 12px;
 }
 .col-11{
-	width: calc(100%/12*11);
+	max-width: calc(100%/12*11);
 	padding: 0px 12px;
 }
 .col-12{
-	width: 100%;
+	max-width: 100%;
 }
 /*margin 間距*/
 /*上*/
@@ -221,6 +221,9 @@ a{
 	margin-bottom: 64px;
 }
 /*右*/
+.mr-4{
+	margin-right: 4px;
+}
 .mr-8{
 	margin-right: 8px;
 }

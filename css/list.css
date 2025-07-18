@@ -1,9 +1,9 @@
 /*上下間距*/
-.narvbar{
+.navbar{
 	margin: 16px 0px;
 }
 /*a 連結 hover 效果*/
-.narvbar a:hover{
+.navbar a:hover{
 	border-bottom:1px solid var(--neutral-900);
 	padding-bottom: 4px;
 }
@@ -82,7 +82,7 @@
 	background-color: var(--neutral-100);
 }
 /*下方版面間距*/
-.footer .narvbar{
+.footer .navbar{
 	margin-bottom: 24px;
 }
 /*文字定位、邊線顏色*/
@@ -91,10 +91,12 @@
 	border-top: 1px solid var(--neutral-300);
 }
 /*文字顏色*/
-.copyright .h6{
+.copyright p{
+	font-size: 14px;
+	font-weight: 400;
 	color: var(--neutral-600);
 }
 /*文字上方間距*/
-.copyright .h3-1{
+.copyright .p-1{
 	margin-top: 32px;
 }
