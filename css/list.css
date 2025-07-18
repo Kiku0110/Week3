@@ -67,7 +67,7 @@
 }
 /*橫幅按鈕文字、背景顏色*/
 .banner .btn{
-	color: #FFFFFF;
+	color: var(--neutral-white);
 	background-color: var(--neutral-900);
 }
 /*橫幅按鈕 hover 效果*/

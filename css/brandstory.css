@@ -1,0 +1,42 @@
+.narvbar{
+	margin: 16px 0px;
+}
+
+/*表頭圖片設定*/
+.hero-section{
+	background-image:url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week1/hero.png?raw=true");
+	max-width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+/*表頭標題定位*/
+.page-title{
+	margin: 0 auto;
+	padding: 151px 0;
+}
+.page-title .h2{
+    font-size: 40px;
+	text-align: center;
+	color:var(--neutral-white);
+}
+.page-title .h3{
+	text-align: center;
+	color: var(--neutral-white);
+}
+
+/*橫幅縮排、顏色*/
+.banner{
+	padding: 24px 0;
+	background-color: var(--primary-200);
+}
+/*橫幅按鈕文字、背景顏色*/
+.banner .btn{
+	color: var(--neutral-white);
+	background-color: var(--neutral-900);
+}
+/*橫幅按鈕 hover 效果*/
+.banner .btn:hover{
+	color:var(--neutral-900);
+	background-color: var(--neutral-100);
+}

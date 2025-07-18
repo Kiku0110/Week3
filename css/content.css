@@ -80,7 +80,7 @@
 }
 .btn-black{
     border: 1px solid var(--neutral-900);
-    color:#FFFFFF;
+    color:var(--neutral-white);
     background-color: var(--neutral-900);
 }
 /*icon 間距*/
@@ -106,13 +106,13 @@
 }
 /*收藏按鈕 hover 效果*/
 .btn-white:hover{
-    color:#FFFFFF;
+    color:var(--neutral-white);
     background-color: var(--neutral-900);
 }
 /*新增 收藏按鈕 active 效果*/
 .btn-white:active{
     color:var(--neutral-900);
-    background-color: #FFFFFF;
+    background-color: var(--neutral-white);
 }
 /*點擊後 隱藏預設文字「加入收藏」*/
 .btn-white:active .btn-word{
@@ -163,7 +163,7 @@
 }
 /*橫幅按鈕文字、背景顏色*/
 .banner .btn{
-	color: #FFFFFF;
+	color: var(--neutral-white);
 	background-color: var(--neutral-900);
 }
 /*橫幅按鈕 hover 效果*/

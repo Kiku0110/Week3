@@ -53,16 +53,16 @@ table {
 /*:root根目錄選取器 顏色*/
 :root{
 	--neutral-white:#FFFF;
-	--neutral-900:#212529;
 	--primary-100:#F5FEE7;
-	--primary-400:#57A203;
-	--primary-300:#C0FA73;
 	--primary-200:#E8FEC5;
+	--primary-300:#C0FA73;
+	--primary-400:#57A203;
 	--neutral-100:#F8F9FA;
 	--neutral-300:#DEE2E6;
 	--neutral-400:#CED4DA;
 	--neutral-600:#6C757D;
 	--neutral-500:#ADB5BD;
+	--neutral-900:#212529;
 	--functional-danger-300:#D74F4F;
 }
 /* box-sizing、文字樣式*/
