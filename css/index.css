@@ -1,12 +1,12 @@
+/*最上方導覽列*/
 .navbar{
     padding: 16px 0px;
 }
-/* a 連結 hover*/
 .navbar a:hover{
 	border-bottom:1px solid var(--neutral-900);
 	padding-bottom: 4px;
 }
-
+/*hero-section*/
 .hero{
     background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner.png?raw=true");
     max-width: 100%;
@@ -27,7 +27,6 @@
 .hero-content .btn{
     background-color: var(--primary-300);
 }
-/* button hover*/
 .hero-content .btn:hover{
     background-color: var(--neutral-white);
 }
@@ -35,27 +34,23 @@
 main{
     padding: 64px 0;
 }
+/*新品上市區塊*/
 .new-arrival .title{
     text-align: center;
 }
-
-/*卡片 a 連結 hover 效果*/
 .product .list-card a:hover{
     box-shadow: 10px 10px 10px -6px;
 }
-
+/*熱銷補貨區塊*/
 .best-seller{
     padding: 64px 0;
 }
 .best-seller .h2{
     padding: 5px 0px;
 }
-/* a 連結 hover */
-.best-seller a:hover{
-    box-shadow: 10px 10px 10px -6px;
-}
 .best-seller .col-3{
     position: relative;
+    z-index: 5;
 }
 .best-seller .list .sell-well{
     width: 91px;
@@ -64,6 +59,7 @@ main{
     top: 0;
     left: 12px;
     background-color: var(--primary-100);
+    z-index: 10;
 }
 .sell-well p{
     font-size: 14px;
@@ -71,7 +67,10 @@ main{
     white-space: pre; /*保留原始空白與換行*/
     color: var(--primary-400);
 }
-
+.best-seller a:hover{
+    box-shadow: 10px 10px 10px -6px;
+}
+/*跨界聯名*/
 .sale{
     background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-co-branded.png?raw=true");
     max-width: 100%;
@@ -106,7 +105,6 @@ main{
     margin: 0px 259.5px;
     background-color: var(--primary-300);
 }
-/* button hover*/
 .sale-content .btn:hover{
     background-color: var(--neutral-white);
 }
@@ -122,20 +120,12 @@ main{
     color: var(--neutral-400);
     margin-right: 8px;
 }
-
-
+/*依系列選購區塊*/
 .series{
     padding: 64px 0;
 }
 .series .h2{
     padding: 5px 0px;
-}
-/* a 連結 hover */
-.series a:hover img{
-    box-shadow: 10px 10px 10px -6px;
-}
-.series a:hover .series-name{
-    color: var(--neutral-900);
 }
 /*系列選購 圖片亮度為 60%*/
 .series img{
@@ -193,6 +183,12 @@ main{
     left:50.5px;
     right:50.5px;
     z-index: 10;
+}
+.series a:hover img{
+    box-shadow: 10px 10px 10px -6px;
+}
+.series a:hover .series-name{
+    color: var(--neutral-900);
 }
 
 .style{
