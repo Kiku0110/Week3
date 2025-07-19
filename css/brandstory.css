@@ -13,7 +13,7 @@
 	background-image:url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week1/hero.png?raw=true");
 	max-width: 100%;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: center center;
 	background-size: cover;
 }
 /*表頭標題定位*/

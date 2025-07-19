@@ -76,16 +76,6 @@ body{
 	letter-spacing: 0.05em;
 	color:var(--neutral-900);
 }
-/*字重*/
-.fw-400{
-	font-weight: 400;
-}
-.fw-500{
-	font-weight: 500;
-}
-.fw-700{
-	font-weight: 700;
-}
 /*H1 ~ H6*/
 .h1{
 	font-family: "Noto Sans TC", sans-serif;
@@ -122,6 +112,16 @@ body{
 	font-size: 16px;
 	line-height: 1.2;
 	font-weight: 400;
+}
+/*字重*/
+.fw-400{
+	font-weight: 400;
+}
+.fw-500{
+	font-weight: 500;
+}
+.fw-700{
+	font-weight: 700;
 }
 /*img & a 設定*/
 img{

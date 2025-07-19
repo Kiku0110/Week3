@@ -11,7 +11,56 @@
 .cart{
     padding: 64px 0;
 }
-
+.cart-content{
+    width: 636px;
+    margin: 0 auto;
+}
+.title{
+    margin: 0 auto;
+    margin: 0px 231.5px 32px 231.5px;
+}
+.title .h3{
+    padding: 3px 0;
+}
+.note{
+    padding: 16px;
+    background-color: var(--primary-100);
+}
+.bi-truck{
+    font-size: 24px;
+    color: var(--primary-400);
+}
+.note p{
+    color: var(--primary-400);
+}
+.product-info{
+    padding-bottom: 32px;
+    border-bottom: 1px solid var(--neutral-300);
+}
+.product-info img{
+    width: 120px;
+    height: 120px;
+    margin-right: 16px;
+}
+.info{
+    width: 500px;
+}
+.info .font-color{
+    color: var(--neutral-600);
+}
+.info .h6{
+    text-align: right;
+}
+.cart-content .btn{
+    margin: 0px 227px;
+    color: var(--neutral-white);
+    background-color: var(--neutral-900);
+}
+.cart-content .btn:hover{
+    color: var(--neutral-900);
+    background-color:var(--neutral-white);
+    border: 1px solid var(--neutral-900);
+}
 /*footer & copyright*/
 .footer{
 	padding: 64px 0;
