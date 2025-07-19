@@ -202,43 +202,37 @@ main{
 }
 
 
-/*橫幅縮排、顏色*/
+/*橫幅*/
 .call-to-action{
 	padding: 24px 0;
 	background-color: var(--primary-200);
 }
-/*橫幅按鈕文字、背景顏色*/
 .call-to-action .btn{
 	color: var(--neutral-white);
 	background-color: var(--neutral-900);
 }
-/*橫幅按鈕 hover 效果*/
 .call-to-action .btn:hover{
 	color:var(--neutral-900);
 	background-color: var(--neutral-100);
 }
 
-/*上下縮排、背景顏色*/
+/*footer & copyright*/
 .footer{
 	padding: 64px 0;
 	background-color: var(--neutral-100);
 }
-/*下方版面間距*/
 .footer .navbar{
 	margin-bottom: 24px;
 }
-/*文字定位、邊線顏色*/
 .copyright{
 	text-align: center;
 	border-top: 1px solid var(--neutral-300);
 }
-/*文字顏色*/
 .copyright p{
 	font-size: 14px;
 	font-weight: 400;
 	color: var(--neutral-600);
 }
-/*文字上方間距*/
 .copyright .p-1{
 	margin-top: 32px;
 }

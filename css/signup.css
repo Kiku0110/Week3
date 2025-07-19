@@ -1,0 +1,31 @@
+/*最上方導覽列*/
+.navbar{
+	margin: 16px 0px;
+}
+.navbar a:hover{
+	border-bottom:1px solid var(--neutral-900);
+	padding-bottom: 4px;
+}
+
+
+
+/*footer & copyright*/
+.footer{
+	padding: 64px 0;
+	background-color: var(--neutral-100);
+}
+.footer .navbar{
+	margin-bottom: 24px;
+}
+.copyright{
+	text-align: center;
+	border-top: 1px solid var(--neutral-300);
+}
+.copyright p{
+	font-size: 14px;
+	font-weight: 400;
+	color: var(--neutral-600);
+}
+.copyright .p-1{
+	margin-top: 32px;
+}
