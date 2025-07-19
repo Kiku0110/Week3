@@ -117,6 +117,8 @@ main{
     margin: 0 auto;
 }
 .bi-circle-fill{
+    width: 8px;
+    height: 8px;
     color: var(--neutral-400);
     margin-right: 8px;
 }
@@ -136,8 +138,13 @@ main{
     color: var(--neutral-900);
 }
 /*系列選購 圖片亮度為 60%*/
-.series .col-3 img{
+.series img{
     filter: brightness(60%);
+}
+.series .series-name{
+    
+    text-align: center;
+    color: var(--neutral-white);
 }
 .series .serie-img1{
     position: relative;
@@ -146,11 +153,9 @@ main{
 .series .list .name1{
     width: 219px;
     position: absolute;
-    text-align: center;
     top:118px;
     left:43.5px;
     right:43.5px;
-    color: var(--neutral-white);
     z-index: 10;
 }
 .series .serie-img2{
@@ -160,11 +165,9 @@ main{
 .series .list .name2{
     width: 201px;
     position: absolute;
-    text-align: center;
     top:118px;
     left:52.5px;
     right:52.5px;
-    color: var(--neutral-white);
     z-index: 10;
 }
 .series .serie-img3{
@@ -174,11 +177,9 @@ main{
 .series .list .name3{
     width: 253px;
     position: absolute;
-    text-align: center;
     top:118px;
     left:26.5px;
     right:26.5px;
-    color: var(--neutral-white);
     z-index: 10;
 }
 .series .serie-img4{
@@ -188,15 +189,15 @@ main{
 .series .list .name4{
     width: 205px;
     position: absolute;
-    text-align: center;
     top:118px;
     left:50.5px;
     right:50.5px;
-    color: var(--neutral-white);
     z-index: 10;
 }
 
-
+.style{
+    padding: 64px 0;
+}
 
 
 /*橫幅縮排、顏色*/
