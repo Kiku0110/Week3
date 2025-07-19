@@ -109,17 +109,6 @@ main{
     background-color: var(--neutral-white);
 }
 
-/*未完成*/
-.indicators{
-    width: 88px;
-    margin: 0 auto;
-}
-.bi-circle-fill{
-    width: 8px;
-    height: 8px;
-    color: var(--neutral-400);
-    margin-right: 8px;
-}
 /*依系列選購區塊*/
 .series{
     padding: 64px 0;
@@ -193,6 +182,23 @@ main{
 
 .style{
     padding: 64px 0;
+}
+/*未完成*/
+.style-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -4px;
+    margin-bottom: 8px;
+}
+.style-card{
+    max-width: calc(100%/12*2);
+    padding: 0 4px;
+}
+.style-list .card1{
+    max-width: calc(100%/12*4);
+}
+.style-list .card2 img{
+  margin-bottom: 8px;
 }
 
 
