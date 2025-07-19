@@ -7,7 +7,60 @@
 	padding-bottom: 4px;
 }
 
-
+/*main*/
+.sign-up{
+    padding: 64px 0;
+}
+/*左側廣告圖*/
+.col-5 img{
+    border-radius: 16px;
+}
+.col-5{
+    position: relative;
+    z-index: 5;
+}
+.col-5 .h1{
+    position: absolute;
+    top: 71px;
+    left: 40px;
+    color: var(--neutral-white);
+    z-index: 10;
+    margin-bottom: 15px;
+}
+.col-5 .h4{
+    position:absolute;
+    top: 144px;
+    left: 125px;
+    color: var(--neutral-500);
+    z-index: 10;
+}
+/*右側註冊頁*/
+.col-7{
+    background-color: var(--neutral-100);
+}
+.col-7 .box{
+    width: 586px;
+    text-align: center;
+    margin: 120px 80px;
+    border: 1px solid #000;
+}
+/*註冊表格*/
+.signup-table{
+    width: 586px;
+    text-align: center;
+}
+.signup-table .h6{
+    font-weight: 700;
+    padding: 12px 0;
+}
+.signup-table .table1{
+    color: var(--neutral-600);
+    border-bottom: 2px solid var(--neutral-300);
+}
+.signup-table .table2{
+    color: var(--neutral-900);
+    border-bottom: 2px solid var(--neutral-900);
+}
 
 /*footer & copyright*/
 .footer{
