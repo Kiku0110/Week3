@@ -39,7 +39,7 @@
 /*col-10 定位*/
 .col-10{
 	margin: 0 auto;
-    margin-bottom: 48px;
+    margin-bottom: 24px;
 }
 /*blockquote 背景、文字設定*/
 .blockquote{
@@ -59,7 +59,7 @@
 	margin-bottom: 24px;
 }
 /*intro 底線樣式*/
-.brand-intro .intro{
+.intro{
 	border-bottom: 1px solid var(--neutral-300);
 }
 /*intro 文字顏色*/
