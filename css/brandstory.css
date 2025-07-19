@@ -1,6 +1,6 @@
 /*上下間距*/
 .navbar{
-	margin: 16px 0px;
+	padding: 16px 0px;
 }
 /*a 連結 hover 效果*/
 .navbar a:hover{
@@ -157,4 +157,19 @@
 /*文字上方間距*/
 .copyright .p-1{
 	margin-top: 32px;
+}
+
+@media(max-width:768px){
+	.navbar{
+		padding: 12px 0;
+	}
+	.hero-section{
+		background-image:url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/hero-sm.png?raw=true");
+	}
+	.page-title{
+		padding: 87px 0;
+	}
+	.page-title .h2{
+		font-size: 28px;
+	}
 }

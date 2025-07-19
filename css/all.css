@@ -113,6 +113,22 @@ body{
 	line-height: 1.2;
 	font-weight: 400;
 }
+
+@media(max-width:768px){
+	.h3-md{
+		font-size: 28px;
+	}
+	.h4-md{
+		font-size: 24px;
+	}
+	.h5-md{
+		font-size: 20px;
+	}
+	.h6-md{
+		font-size: 16px;
+	}
+}
+
 /*字重*/
 .fw-400{
 	font-weight: 400;
@@ -192,6 +208,29 @@ a{
 }
 .col-12{
 	max-width: 100%;
+	padding: 0px 12px;
+}
+@media(max-width:768px){
+	.row{
+		margin: 0px -6px;
+	}
+	.col-md-1{
+		width: calc(100%/4);
+		padding: 0px 6px;
+	}
+	.col-md-2{
+		width: calc(100%/4*2);
+		padding: 0px 6px;
+	}
+	.col-md-3{
+		width: calc(100%/4*3);
+		padding: 0px 6px;
+	}
+	.col-md-4{
+		width: 100%;
+		padding: 0px 6px;
+	}
+
 }
 /*margin 間距*/
 /*上*/
@@ -226,6 +265,23 @@ a{
 .mb-64{
 	margin-bottom: 64px;
 }
+@media(max-width:768px){
+	.mb-md-4{
+		margin-bottom: 4px;
+	}
+	.mb-md-8{
+		margin-bottom: 8px;
+	}
+	.mb-md-12{
+		margin-bottom: 12px;
+	}
+	.mb-md-16{
+		margin-bottom: 16px;
+	}
+	.mb-md-24{
+		margin-bottom: 24px;
+	}
+}
 /*右*/
 .mr-4{
 	margin-right: 4px;
@@ -248,6 +304,23 @@ a{
 .mr-48{
 	margin-right: 48px;
 }
+@media(max-width:768px){
+	.mr-md-4{
+		margin-right: 4px;
+	}
+	.mr-md-8{
+		margin-right: 8px;
+	}
+	.mr-md-12{
+		margin-right: 12px;
+	}
+	.mr-md-16{
+		margin-right: 16px;
+	}
+	.mr-md-24{
+		margin-right: 24px;
+	}
+}
 /*padding 縮排*/
 /*上下左右*/
 .p-12{
@@ -266,6 +339,19 @@ a{
 .pr-24{
 	padding-right: 24px;
 }
+
+@media(max-width:768px){
+	.px-md-12{
+		padding: 0 12px;
+	}
+	.py-md-12{
+		padding: 12px 0;
+	}
+	.py-md-32{
+		padding: 32px 0;
+	}
+}
+
 /*排列方式*/
 .d-flex{
 	display: flex;
@@ -281,6 +367,18 @@ a{
 }
 .fw-wrap{
 	flex-wrap: wrap;
+}
+.d-none{
+	display: none;
+}
+@media(max-width:768px) {
+	.d-md-block{
+		display: block;
+	}
+	.d-md-none{
+		display: none;
+	}
+	
 }
 /*子元素之間間距*/
 .gap-8{
