@@ -13,7 +13,7 @@
 }
 /*左側廣告圖*/
 .col-5 img{
-    border-radius: 16px;
+    border-radius: 12px;
 }
 .col-5{
     position: relative;
@@ -36,13 +36,13 @@
 }
 /*右側註冊頁*/
 .col-7{
+    border-radius: 12px;
     background-color: var(--neutral-100);
 }
 .col-7 .box{
     width: 586px;
     text-align: center;
     margin: 120px 80px;
-    border: 1px solid #000;
 }
 /*註冊表格*/
 .signup-table{
@@ -51,17 +51,37 @@
 }
 .signup-table .h6{
     font-weight: 700;
+}
+.signup-table a{
     padding: 12px 0;
 }
 .signup-table .table1{
-    color: var(--neutral-600);
     border-bottom: 2px solid var(--neutral-300);
 }
+.signup-table .table1 a{
+    color: var(--neutral-600);
+}
 .signup-table .table2{
+    border-bottom: 2px solid var(--neutral-900);
+}
+.signup-table .table2 a{
+    color: var(--neutral-900);
+}
+.table1 a:hover{
     color: var(--neutral-900);
     border-bottom: 2px solid var(--neutral-900);
 }
-
+.form{
+    border-radius: 4px;
+    border: 1px solid var(--neutral-300);
+    background-color: var(--neutral-white);
+}
+.form a{
+    padding: 12px;
+}
+.form a:hover{
+    border-bottom: 2px solid var(--neutral-900);
+}
 /*footer & copyright*/
 .footer{
 	padding: 64px 0;
