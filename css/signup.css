@@ -11,33 +11,10 @@
 .sign-up{
     padding: 64px 0;
 }
-/*左側廣告圖*/
-.col-5 img{
-    border-radius: 12px;
-}
-.col-5{
-    position: relative;
-    z-index: 5;
-}
-.col-5 .h1{
-    position: absolute;
-    top: 71px;
-    left: 40px;
-    color: var(--neutral-white);
-    z-index: 10;
-    margin-bottom: 15px;
-}
-.col-5 .h4{
-    position:absolute;
-    top: 144px;
-    left: 125px;
-    color: var(--neutral-500);
-    z-index: 10;
-}
 /*右側註冊頁*/
 .col-7{
+    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/login-bg.png?raw=true");
     border-radius: 12px;
-    background-color: var(--neutral-100);
 }
 .col-7 .box{
     text-align: center;
@@ -47,9 +24,6 @@
 .signup-table{
     width: 100%;
     text-align: center;
-}
-.signup-table .h6{
-    font-weight: 700;
 }
 .signup-table a{
     padding: 12px 0;
@@ -77,6 +51,13 @@
 }
 .form a{
     padding: 12px;
+}
+.form img{
+    width: 40px;
+    height: 40px;
+}
+.form p{
+    font-size: 16px;
 }
 .form a:hover{
     border-bottom: 2px solid var(--neutral-900);
