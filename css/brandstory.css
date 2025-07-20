@@ -31,6 +31,9 @@
 	color: var(--neutral-white);
 }
 
+.brand-story{
+	padding: 64px 0;
+}
 /*col-8 定位*/
 .col-8{
 	margin: 0 auto;
