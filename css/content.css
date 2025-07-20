@@ -62,11 +62,11 @@
 .size .h6{
     color: var(--functional-danger-300);
 }
-.product-size:hover{
+.some:hover{
     border: 1px solid var(--neutral-900);
 }
 /*已無尺寸 按鈕 cursor 效果*/
-.product-size-none{
+.none{
     cursor: not-allowed;
 }
 /*收藏&預約試穿 按鈕*/
