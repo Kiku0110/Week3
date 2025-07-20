@@ -28,10 +28,11 @@
     margin-bottom: 32px;
 }
 .price .h5{
-    font-size: 20px;
     color: var(--primary-400);
 }
 .price .h6{
+    font-size: 14px;
+    line-height: 1.5;
     color: var(--neutral-500);
     text-decoration: line-through;
 }
