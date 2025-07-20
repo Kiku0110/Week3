@@ -266,6 +266,9 @@ a{
 	margin-bottom: 64px;
 }
 @media(max-width:768px){
+	.mb-md-0{
+		margin-bottom: 0;
+	}
 	.mb-md-4{
 		margin-bottom: 4px;
 	}
@@ -400,6 +403,14 @@ a{
 .breadcrumb-item{
 	display: flex;
 	font-weight: 500;
+}
+@media(max-width:768px){
+	.breadcrumb-item +.breadcrumb-item::before{
+		padding: 0px 8px;
+	}
+	.breadcrumb-item{
+		font-size: 14px;
+	}
 }
 .item-color{
 	color: var(--neutral-600);

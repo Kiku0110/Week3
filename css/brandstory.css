@@ -74,15 +74,11 @@
     border-bottom: 1px solid var(--neutral-300);
     padding-bottom: 48px;
 }
-/*histoory li*3 樣式，裡面包兩個 p 段落*/
+/*histoory li*3 樣式*/
 .histoory li{ 
 	list-style-type: disc;
 	list-style-position: inside;/*實心圓位置往內*/
-}
-.histoory .item{
-	display:inline-block;
-	border-left: 1px solid var(--neutral-900);
-	padding-left: 8px; /*左內縮*/
+	padding-left: 8px;
 }
 
 /*brand-concept 樣式*/
