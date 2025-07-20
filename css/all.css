@@ -281,6 +281,9 @@ a{
 	.mb-md-24{
 		margin-bottom: 24px;
 	}
+	.mb-md-32{
+		margin-bottom: 32px;
+	}
 }
 /*右*/
 .mr-4{
@@ -341,6 +344,9 @@ a{
 }
 
 @media(max-width:768px){
+	.p-md-12{
+		padding: 12px;
+	}
 	.px-md-12{
 		padding: 0 12px;
 	}
@@ -408,4 +414,9 @@ a{
 	border: none;
 	cursor: pointer;
 	background-color: transparent;
+}
+@media(max-width:768px){
+	.btn{
+		padding: 8px 16px;
+	}
 }

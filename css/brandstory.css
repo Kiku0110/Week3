@@ -135,7 +135,6 @@
 	color:var(--neutral-900);
 	background-color: var(--neutral-100);
 }
-
 /*上下縮排、背景顏色*/
 .footer{
 	padding: 64px 0;
@@ -165,6 +164,9 @@
 	.navbar{
 		padding: 12px 0;
 	}
+	.col-md-4{
+		margin-bottom: 32px;
+	}
 	.hero-section{
 		background-image:url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/hero-sm.png?raw=true");
 	}
@@ -180,8 +182,19 @@
 	.blockquote{
 		padding: 24px;
 	}
-	.col-md-4{
-		margin-bottom: 32px;
+	.histoory{
+		padding-bottom: 32px;
 	}
-	
+	.brand-concept{
+		padding-bottom: 32px;
+	}
+	.story{
+		padding-bottom: 32px;
+	}
+	.banner{
+		padding: 32px 0;
+	}
+	.footer{
+		padding: 32px 0;
+	}
 }
