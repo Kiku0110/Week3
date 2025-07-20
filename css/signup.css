@@ -40,13 +40,12 @@
     background-color: var(--neutral-100);
 }
 .col-7 .box{
-    width: 586px;
     text-align: center;
     margin: 120px 80px;
 }
 /*註冊表格*/
 .signup-table{
-    width: 586px;
+    width: 100%;
     text-align: center;
 }
 .signup-table .h6{

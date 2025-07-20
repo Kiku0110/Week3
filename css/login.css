@@ -39,13 +39,12 @@
     background-color: var(--neutral-100);
 }
 .col-7 .box{
-    width: 586px;
     text-align: center;
-    margin: 120px 80px;
+    padding: 120px 80px;
 }
 /*登入表格*/
 .login-table{
-    width: 586px;
+    width: 100%;
     text-align: center;
 }
 .login-table .h6{
