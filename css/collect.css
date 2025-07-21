@@ -15,8 +15,7 @@
     margin: 0 auto;
 }
 .cart-content{
-    margin: 0 auto;
-    width: 100%;
+    max-width: 100%;
 }
 .title{
     width: 173px;
