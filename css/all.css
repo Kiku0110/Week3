@@ -345,7 +345,6 @@ a{
 .pr-24{
 	padding-right: 24px;
 }
-
 @media(max-width:768px){
 	.p-md-12{
 		padding: 12px;
