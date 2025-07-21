@@ -14,13 +14,22 @@
 .col-6{
     margin: 0 auto;
 }
+.cart-content{
+    margin: 0 auto;
+    width: 100%;
+}
 .title{
     width: 173px;
-    margin: 0 auto;
     margin: 0px 231.5px 32px 231.5px;
 }
 .title .h3{
     padding: 3px 0;
+}
+.bi-check-circle-fill{
+    padding: 3px 0;
+    color: var(--primary-300);
+    background-color: var(--primary-500);
+    border-radius: 50%;
 }
 .note{
     padding: 16px;
@@ -81,4 +90,20 @@
 }
 .copyright .p-1{
 	margin-top: 32px;
+}
+@media(max-width:768px){
+    .navbar{
+		padding: 12px 0;
+	}
+    .cart{
+        padding: 24px 0;
+    }
+    .title{
+        width: 140px;
+        flex-wrap: nowrap;
+    }
+
+    .footer{
+		padding: 32px 0;
+	}
 }
