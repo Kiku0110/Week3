@@ -2,9 +2,11 @@
 .navbar{
 	padding: 16px 0px;
 }
+.navbar a{
+	border-bottom: 1px solid transparent; /*hover時不會抖動*/
+}
 .navbar a:hover{
 	border-bottom:1px solid var(--neutral-900);
-	padding-bottom: 4px;
 }
 
 /*main*/
