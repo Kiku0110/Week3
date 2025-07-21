@@ -11,14 +11,39 @@
 .sign-up{
     padding: 64px 0;
 }
-/*右側註冊頁*/
-.col-7{
-    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/login-bg.png?raw=true");
+/*左側logo圖*/
+/*容器位置*/
+.col-5 .img1{
+    margin: 0 auto;
+    width: 100%;
     border-radius: 12px;
 }
-.col-7 .box{
+/*加入背景圖*/
+.img1{
+    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/login.png?raw=true");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover;
+}
+/*右側註冊頁*/
+.col-7 .img2{
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 12px;
+    padding: 120px 80px;
+}
+.img2{
+     background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/login-bg.png?raw=true");
+     height: 100%;
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size:cover;
+}
+.col-7 .signup-box{
+    margin: 0 auto;
+    max-width: 100%;
     text-align: center;
-    margin: 120px 80px;
 }
 /*註冊表格*/
 .signup-table{

@@ -10,35 +10,39 @@
 .log-in{
     padding: 64px 0;
 }
-.col-5{
-    border: 1px solid blue;
-    /* border-radius: 12px;
-    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/login.png?raw=true");
-    max-width: 100%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: contain; */
-}
-.col-7{
-    border: 1px solid blue;
-    position: relative;
-    z-index: 5;
-}
-/*右側登入頁*/
-.col-7 img{
-    /* background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/login-bg.png?raw=true"); */
+/*左側logo*/
+.col-5 .img1{
+    margin: 0 auto;
+    width: 100%;
     border-radius: 12px;
+}
+.img1{
+    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/login.png?raw=true");
     height: 100%;
+    background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+/*右側登入頁*/
+.col-7 .img2{
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 12px;
+    padding: 120px 80px;
+}
+.img2{
+    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/login-bg.png?raw=true");
+    height: 100%;
+    background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
     
 }
-.col-7 .box{
-    border: 1px solid #000;
-    width: 586px;
+.col-7 .login-box{
+    margin: 0 auto;
+    max-width: 100%;
     text-align: center;
-    position:absolute;
-    top:120px;
-    left: 80px;
-    z-index: 10;
 }
 /*登入表格*/
 .login-table{
@@ -107,12 +111,10 @@
         padding: 12px 0;
     }
     .col-5{
-      background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/login-sm.png?raw=true");
-      max-width: 100%;
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
+      
+      
     }
+    
 
     .footer{
 		padding: 32px 0;
