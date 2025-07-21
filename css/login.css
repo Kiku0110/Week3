@@ -2,9 +2,11 @@
 .navbar{
 	padding: 16px 0px;
 }
+.navbar a{
+	border-bottom: 1px solid transparent; /*hover時不會抖動*/
+}
 .navbar a:hover{
 	border-bottom:1px solid var(--neutral-900);
-	padding-bottom: 4px;
 }
 /*main*/
 .log-in{
@@ -63,10 +65,12 @@
 }
 .login-table .table2 a{
     color: var(--neutral-600);
+    border-bottom: 2px solid transparent;
 }
 .table2 a:hover{
     color: var(--neutral-900);
     border-bottom: 2px solid var(--neutral-900);
+    background-color: var(--neutral-300);
 }
 .form{
     border-radius: 4px;

@@ -1,11 +1,12 @@
-/*上下間距*/
+/*最上方導覽列*/
 .navbar{
 	padding: 16px 0px;
 }
-/*a 連結 hover 效果*/
+.navbar a{
+	border-bottom: 1px solid transparent; /*hover時不會抖動*/
+}
 .navbar a:hover{
 	border-bottom:1px solid var(--neutral-900);
-	padding-bottom: 4px;
 }
 
 /*表頭圖片設定*/
@@ -131,27 +132,23 @@
 	color:var(--neutral-900);
 	background-color: var(--neutral-100);
 }
-/*上下縮排、背景顏色*/
+/*footer & copyright*/
 .footer{
 	padding: 64px 0;
 	background-color: var(--neutral-100);
 }
-/*下方版面間距*/
 .footer .navbar{
 	margin-bottom: 24px;
 }
-/*文字定位、邊線顏色*/
 .copyright{
 	text-align: center;
 	border-top: 1px solid var(--neutral-300);
 }
-/*文字顏色*/
 .copyright p{
     font-size: 14px;
     font-weight: 400;
 	color: var(--neutral-600);
 }
-/*文字上方間距*/
 .copyright .p-1{
 	margin-top: 32px;
 }
