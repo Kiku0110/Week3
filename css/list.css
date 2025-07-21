@@ -94,6 +94,9 @@
 	margin-top: 32px;
 }
 @media(max-width:768px){
+	.navbar{
+		padding: 12px 0;
+	}
 	.product-list{
 		padding: 16px 0;
 		margin-bottom: 24px;
